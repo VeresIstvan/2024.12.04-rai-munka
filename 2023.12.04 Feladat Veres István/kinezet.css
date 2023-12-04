@@ -1,0 +1,85 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    grid-area: h;
+}
+footer{
+    grid-area: f;
+    text-align: center;
+    color: rgb(123,197,161);
+}
+nav{
+    grid-area: n;
+    background-color: rgb(123,197,161);
+    padding: 20px;
+}
+#bal{
+    grid-area: ab;
+}
+#jobb {
+    grid-area: aj;
+    display: block;
+}
+
+#jobb img{
+    width: 100%;
+    height: auto;
+    border: gray 1 px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#fotartalom{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    'h h'
+    'n n'
+    'ab aj'
+    'f f';
+}
+
+img{
+    width: 200px;
+    height: auto;
+}
+#h1{
+    color: green;
+    
+    font-size: 200%;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(123,197,161);
+    margin: 10px;
+}
+#balFotartalom{
+    display: grid;
+    grid-template-columns: 1fr 1 fr;
+    gap: 5px;
+    margin: 10px;
+}
+aside h4{
+    color: rgb(123,197,161);
+    padding: 10px;
+    background-color: grey;
+    margin: 0px;
+}
+
+#bb #bj{
+    border: lightgray 1px solid;
+    border-radius: 5px;
+    grid-template-columns: 1fr auto 1fr;
+}
+
+#szurke{
+    background-color: lightgray;
+    margin: 0px;
+    height: 10px;
+}
+.kozep{
+    background-color: white;
+    display: grid;
+    grid-template-columns: ;
+}
